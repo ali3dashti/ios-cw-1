@@ -31,9 +31,24 @@ var height_difference = (height - friendHeight)
 name == friendname
  
 hobby1 == friendHobby1
-
+hobby1 != friendHobby1
 hobby2 == friendHobby2
+hobby2 != friendHobby2
+hobby1 == friendHobby2
+hobby1 != friendHobby2
+hobby2 == friendHobby1
+hobby2 != friendHobby1
 
 height == friendHeight
+height > friendHeight
+height < friendHeight
+height >= friendHeight
+height <= friendHeight
+height != friendHeight
 
 age == friendAge
+age > friendAge
+age < friendAge
+age >= friendAge
+age <= friendAge
+age != friendAge
